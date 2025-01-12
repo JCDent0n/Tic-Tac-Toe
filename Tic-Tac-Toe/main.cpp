@@ -6,8 +6,6 @@ char grid[SIZEOFGRID][SIZEOFGRID];
 
 void board()
 {
-	//char z{ '1' };
-	
 	for (int x = 0; x < SIZEOFGRID; x++)
 	{
 		std::cout << "--------------" << std::endl;
@@ -29,16 +27,6 @@ void board()
 	std::cout << "--------------" << std::endl;
 
 }
-
-
-/*void control(int row1, int column1)
-{
-	if (grid[x][y] == 'X' || 'O')
-	{
-
-	}
-}*/
-
 
 void playBoard(int row,int column, char input)
 {
