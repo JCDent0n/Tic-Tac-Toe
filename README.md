@@ -1,1 +1,1 @@
-It did not finished yet still WIP
+It is not finished yet still WIP
